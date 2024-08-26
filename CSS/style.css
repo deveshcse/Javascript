@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0a3ffe;
+    font-family: 'Lato', 'Sans-serif';
+    box-sizing: border-box;
+}
+
+header{
+
+}
+
+
+#navbar{
+    margin: 0 auto;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+#logo-container{
+    display: flex;
+    align-items: center;
+}
+
+#logo-container img{
+    width: 25px;
+    height: 22px;
+}
+
+#nav-items{
+    display: flex;
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+#nav-items li{
+    cursor: pointer;
+}
+
+
+#main-header{
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+    position: relative;
+}
+
+#main-header .left {
+    position: absolute;
+    width: 40%;
+    top: 100px;
+    left: 10%;
+    height: 100%;
+    color: #ffffff;
+}
+
+#main-header .left .big-text{
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+#main-header .left #overview{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+
+#main-header .left #overview .overview-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#main-header .left #overview .overview-items h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.gredient-text{
+    color: #FF00F2;
+}
+
+#main-header .left #overview .overview-items p{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+#main-header .right{
+    width: 90%;
+    height: 100%;
+    z-index: -10;
+    mix-blend-mode: color-dodge;
+}
+
+#main-header .right img{
+    width: 100%; 
+    height: 105vh;
+    margin-top: -11vh;
+}
+
+.buttons{
+    display: flex;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    border: 1px solid #879ff3;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.btn1{
+    background: #4512c5;
+    background: linear-gradient(45deg, #FF00F2 6%, #879ff3 28%, #FF00F2 97%);
+}
+
+.band{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+    margin-bottom: 100px;
+    transform: rotate(-3deg);
+    background: #2741a0;
+    border: 1px solid #2741a0;
+    box-shadow: 0 80px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    color: beige;
+    font-size: 30px;
+    font-weight: 900;
+}
