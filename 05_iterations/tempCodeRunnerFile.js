@@ -1,0 +1,2 @@
+
+// mycoding.forEach()
