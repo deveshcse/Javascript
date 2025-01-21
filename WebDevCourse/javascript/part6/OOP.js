@@ -152,3 +152,4 @@ class Employee {
 let emp = new Employee("Alice", 25000);
 console.log(emp._salary);
 emp.salary = -400
+
